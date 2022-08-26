@@ -1,0 +1,6 @@
+.git
+.cargo
+.rust
+**/target
+**/node_modules
+Dockerfile
