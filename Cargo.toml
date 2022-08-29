@@ -1,12 +1,12 @@
 [package]
-name = "lora-packet-validator"
+name = "lora-packet-verifier"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-name = "lorawan_packet_validator"
+name = "lorawan_packet_verifier"
 path = "src/main.rs"
 doc = false
 

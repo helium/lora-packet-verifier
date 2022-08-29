@@ -1,2 +1,2 @@
-# lora-packet-validator
-lorawan packet validator
+# lora-packet-verifier
+lorawan packet verifier
