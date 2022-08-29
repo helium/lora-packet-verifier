@@ -1,4 +1,4 @@
-use lrwn::{Payload, MType};
+use lrwn::{Payload, PhyPayload, MType};
 
 fn main() {
     println!("Hello, world!");
@@ -135,6 +135,10 @@ fn main() {
     ];
     for s in trace {
         println!(r#"{:?}"#, s);
+        let bytes = base64::decode(s).unwrap();
+        println!("{:?}", bytes);
+        let p = PhyPayload::from_slice(&bytes);
+        println!("{:?}", p);
     }
     test_proprietary();
 }

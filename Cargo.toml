@@ -17,3 +17,4 @@ members = [
 
 [dependencies]
 lrwn = { package = "lrwn", path = "lrwn" }
+base64 = "0.13.0"
