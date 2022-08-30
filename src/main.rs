@@ -143,6 +143,16 @@ fn main() {
     test_proprietary();
 }
 
+// fn pv_a(p_strings: &[str]) {
+//     for s in p_strings {
+//         println!(r#"{:?}"#, s);
+//         let bytes = base64::decode(s).unwrap();
+//         println!("{:?}", bytes);
+//         let p = PhyPayload::from_slice(&bytes);
+//         println!("{:?}", p); 
+//     }
+// }
+
 struct PayloadTest {
     pl: Payload,
     bytes: Vec<u8>,

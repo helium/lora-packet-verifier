@@ -13,8 +13,10 @@ doc = false
 [workspace]
 members = [
 	"lrwn",
+	"store",
 ]
 
 [dependencies]
 lrwn = { package = "lrwn", path = "lrwn" }
+store = { package = "store", path = "store" }
 base64 = "0.13.0"
